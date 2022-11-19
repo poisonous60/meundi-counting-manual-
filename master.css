@@ -1,0 +1,31 @@
+* {
+    background-color: antiquewhite;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1em;
+}
+
+#btn-container {
+    display: inline-block;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-small {
+    padding: 10px 18px;
+    font-size: 12px;
+}

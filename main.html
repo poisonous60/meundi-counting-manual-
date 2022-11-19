@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="main.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="main">
+        <div id="btn-container">
+            <button id="g1" class="btn">고스트 일반</button>
+            <button id="g1m" class="btn btn-small">실수</button>
+            <span id="g1-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d1" class="btn">드라군 일반</button>
+            <button id="d1m" class="btn btn-small">실수</button>
+            <span id="d1-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h1" class="btn">히드라 일반</button>
+            <button id="h1m" class="btn btn-small">실수</button>
+            <span id="h1-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="g2" class="btn">고스트 레어</button>
+            <button id="g2m" class="btn btn-small">실수</button>
+            <span id="g2-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d2" class="btn">드라군 레어</button>
+            <button id="d2m" class="btn btn-small">실수</button>
+            <span id="d2-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h2" class="btn">히드라 레어</button>
+            <button id="h2m" class="btn btn-small">실수</button>
+            <span id="h2-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="g3" class="btn">고스트 고대</button>
+            <button id="g3m" class="btn btn-small">실수</button>
+            <span id="g3-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d3" class="btn">드라군 고대</button>
+            <button id="d3m" class="btn btn-small">실수</button>
+            <span id="d3-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h3" class="btn">히드라 고대</button>
+            <button id="h3m" class="btn btn-small">실수</button>
+            <span id="h3-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="g4" class="btn">고스트 유물</button>
+            <button id="g4m" class="btn btn-small">실수</button>
+            <span id="g4-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d4" class="btn">드라군 유물</button>
+            <button id="d4m" class="btn btn-small">실수</button>
+            <span id="d4-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h4" class="btn">히드라 유물</button>
+            <button id="h4m" class="btn btn-small">실수</button>
+            <span id="h4-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="g5" class="btn">고스트 서사</button>
+            <button id="g5m" class="btn btn-small">실수</button>
+            <span id="g5-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d5" class="btn">드라군 서사</button>
+            <button id="d5m" class="btn btn-small">실수</button>
+            <span id="d5-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h5" class="btn">히드라 서사</button>
+            <button id="h5m" class="btn btn-small">실수</button>
+            <span id="h5-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="g6" class="btn">고스트 전설</button>
+            <button id="g6m" class="btn btn-small">실수</button>
+            <span id="g6-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d6" class="btn">드라군 전설</button>
+            <button id="d6m" class="btn btn-small">실수</button>
+            <span id="d6-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h6" class="btn">히드라 전설</button>
+            <button id="h6m" class="btn btn-small">실수</button>
+            <span id="h6-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="g7" class="btn">고스트 신화</button>
+            <button id="g7m" class="btn btn-small">실수</button>
+            <span id="g7-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d7" class="btn">드라군 신화</button>
+            <button id="d7m" class="btn btn-small">실수</button>
+            <span id="d7-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h7" class="btn">히드라 신화</button>
+            <button id="h7m" class="btn btn-small">실수</button>
+            <span id="h7-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="g8" class="btn">고스트 태초</button>
+            <button id="g8m" class="btn btn-small">실수</button>
+            <span id="g8-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="d8" class="btn">드라군 태초</button>
+            <button id="d8m" class="btn btn-small">실수</button>
+            <span id="d8-span">0</span>
+        </div>
+        <div id="btn-container">
+            <button id="h8" class="btn">히드라 태초</button>
+            <button id="h8m" class="btn btn-small">실수</button>
+            <span id="h8-span">0</span>
+        </div>
+        <div id="btn-container">
+            <label>파일이름<input type="text" id="filename"></label>
+        </div>
+        <div id="btn-container">
+            <button id="save" class="btn">저장</button>
+        </div>
+    </div>
+</body>
+</html>
